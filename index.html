@@ -13,19 +13,23 @@
         <div class="form-container">
             <h1 class="title">Regístrate</h1>
             <div class="group">
-                <input type="text" name="" id="name">
+                <input type="text" name="" id="name" required>
                 <label for="">Nombre</label>
+                <p class="error" id="error-name">Nombre de usuario debe ser mayor a 5 caracteres</p>
             </div>
             <div class="group">
-                <input type="email" name="" id="email">
+                <input type="text" name="" id="email" required>
                 <label for="">Email</label>
+                <p class="error" id="error-email">Correo no válido</p>
             </div>
             <div class="group">
-                <input type="password" name="" id="password">
+                <input type="password" name="" id="password" required>
                 <label for="">Contraseña</label>
+                <p class="error" id="error-pass">Contraseña debe ser mayor a 5 caracteres</p>
             </div>
             <button class="sing-up" type="submit">Aceptar</button>
         </div>
     </form>
+    <script src="assets/js/logic.js"></script>
 </body>
 </html>

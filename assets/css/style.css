@@ -60,6 +60,14 @@ body{
     font-size: 1.2rem;
     color: #000000;
 }
+.error{
+    color: #ec2F4B;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+#error-name, #error-email, #error-pass{
+    display: none;
+}
 .form-container .sing-up{
     font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
